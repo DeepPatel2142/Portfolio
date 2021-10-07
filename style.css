@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+
+body{
+    color: #40514E;
+    margin: 0;
+    font-family: 'Merriweather',serif;  
+}
+.logo{
+    background-color: #1B262C;
+    padding-top: 20px;
+}
+.logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo a span{
+    color: orange;
+}
+h1{
+    margin: 85px auto 0 auto;
+    font-family: 'Sacramento',cursive;
+    font-size: 5.625rem;
+    color: orange;}
+h2{
+    font-family: 'Montserat',sans-serif;
+    font-size: 1.8rem;
+    color: orange;
+    padding-bottom: 10px;
+}
+h3{  
+    font-family: 'Montserat',sans-serif;
+    color: #F05941;
+}
+p{
+    line-height: 2;
+}
+.top-container{
+    text-align: center;
+    background-color: #1B262C;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 272px;
+}
+.middle-container{
+    position: relative;
+    background-image: linear-gradient(to top right, rgb(66, 66, 66), rgb(192, 117, 5));
+}
+.bottom-container{
+  text-align: center;
+  background-color: black;
+  padding: 20px 0 20px;
+}
+.name{
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    color: red;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+}
+.top-cloud{
+    position: absolute;
+    right: 150px;
+    top: 70px;
+}
+.pic{
+    width: 30%;
+    position: relative;
+    top: 170px;
+    left: 200px;
+}
+.pic1{
+    width: 420px;
+    height: 320px;
+    position: relative;
+    top: 110px;
+    right:-295px;
+    border-radius: 15px;
+}
+.hello{
+    font-family: 'Sacramento',cursive; 
+    font-size: 60px;
+    position: relative;
+    top: -40px;
+}
+.intro{
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
+    position: relative;
+    top: -80px;
+}
+.glass{ 
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.30);
+    padding: 40px;
+    border-radius: 100px;
+    backdrop-filter: blur(30px);
+    position: relative;
+    top: -230px;
+    left: 800px;
+    text-align: center;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+footer{
+    background: black;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+#rights{
+    color: #ffb340;
+}
+.btn {
+    border-radius: 5px;
+    color: orange;
+    background: black;
+    padding: 10px 20px 10px 20px;
+    border: solid orange 1px;
+    font-family: 'Montserat',sans-serif;
+    text-decoration: none;
+    margin: 20px;
+  }
+.btn:hover {
+    color: black;
+    background: orange;
+  }
+.head{
+    font-family: 'Montserat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
